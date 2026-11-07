@@ -1,0 +1,56 @@
+{
+  "name": "dsh-impeccable-skill",
+  "version": "0.1.0",
+  "description": "Impeccable 前端设计技能（DSH 移植版）：24 个设计剧本、craft-floor 质量底线、四种模式分层与 DSH 原生运行时映射；纯技能插件，离线可用，不含二进制与客户端 UI。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skill",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "NOTICE.md"
+  ],
+  "icon": "icon.svg",
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "deepseek-harness",
+    "impeccable",
+    "skill",
+    "design",
+    "design-system",
+    "ui",
+    "ux",
+    "frontend",
+    "audit",
+    "critique",
+    "polish"
+  ],
+  "license": "Apache-2.0",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "capabilities": [
+      "fs:read"
+    ]
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "pack:check": "npm pack --dry-run"
+  }
+}

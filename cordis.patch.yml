@@ -1,0 +1,9 @@
+# dsh-impeccable-skill 包层：把随包携带的 Impeccable 知识库注册成一个按需加载的 agent skill。
+# 本文件即 package.json#dsh.bundle.patch 指向的层。
+# 层语义：一个 YAML 数组，每个元素是一条行操作；`insert` 把插件行插入组合后的配置。
+# 后续层可用同 `id` 覆盖本行（整行替换）。
+- insert:
+    # `id`：行标识，供后续层覆盖使用。
+    - id: dsh-impeccable-skill
+      # `name`：加载器引入的模块名，解析到本包入口（package.json#main → index.js）。
+      name: dsh-impeccable-skill

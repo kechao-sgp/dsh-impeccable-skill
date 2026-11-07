@@ -1,0 +1,13 @@
+{
+  "name": "dsh-impeccable-skill",
+  "owner": "OWNER",
+  "url": "https://github.com/OWNER/dsh-impeccable-skill",
+  "category": "skill",
+  "description": {
+    "en": "Impeccable's frontend design system as one DSH skill: 24 playbooks (shape, critique, audit, polish, typeset, layout, animate ...), the craft floor, four surface modes, and a mapping of every upstream engine command onto DSH-native actions. Pure skill plugin, no binary, no client UI, works offline.",
+    "zh": "把 Impeccable 前端设计体系做成一个 DSH 技能：24 个设计剧本（shape、critique、audit、polish、typeset、layout、animate 等）、craft-floor 质量底线、四种界面模式，并附每个上游引擎命令的 DSH 原生替代映射。纯技能插件，无二进制、无客户端 UI，离线可用。"
+  },
+  "npm": "dsh-impeccable-skill",
+  "install": "dsh plugin --profile web add dsh-impeccable-skill",
+  "capabilities": ["fs-read"]
+}

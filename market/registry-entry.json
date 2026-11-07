@@ -1,0 +1,14 @@
+{
+  "id": "dsh-impeccable-skill",
+  "name": "Impeccable 设计技能",
+  "description": "Impeccable 前端设计体系（DSH 移植版）：24 个设计剧本、质量底线与模式分层，附 DSH 原生运行时映射；纯技能、离线可用。",
+  "category": "watchlist",
+  "alsoCategories": ["self-dev"],
+  "tags": ["设计", "UI", "技能"],
+  "verified": [],
+  "source": "npm",
+  "npm": "dsh-impeccable-skill",
+  "github": "OWNER/dsh-impeccable-skill",
+  "icon": "https://cdn.jsdelivr.net/npm/dsh-impeccable-skill@0/icon.svg",
+  "homepage": "https://github.com/OWNER/dsh-impeccable-skill"
+}
