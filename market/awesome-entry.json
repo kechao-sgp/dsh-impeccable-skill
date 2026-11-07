@@ -1,7 +1,7 @@
 {
   "name": "dsh-impeccable-skill",
-  "owner": "OWNER",
-  "url": "https://github.com/OWNER/dsh-impeccable-skill",
+  "owner": "kechao-sgp",
+  "url": "https://github.com/kechao-sgp/dsh-impeccable-skill",
   "category": "skill",
   "description": {
     "en": "Impeccable's frontend design system as one DSH skill: 24 playbooks (shape, critique, audit, polish, typeset, layout, animate ...), the craft floor, four surface modes, and a mapping of every upstream engine command onto DSH-native actions. Pure skill plugin, no binary, no client UI, works offline.",
