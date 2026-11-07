@@ -21,13 +21,15 @@
 
 ## 安装
 
-**方式一：DSH 插件管理 → 添加插件**，填入包名：
+**方式一：从仓库安装**（当前可用）。包声明了 `dsh.bundle`，把仓库地址填进插件管理即可：
 
 ```
-dsh-impeccable-skill
+https://github.com/kechao-sgp/dsh-impeccable-skill
 ```
 
 **方式二：本机目录安装**（开发调试用）——把这个包目录作为 bundle 装进当前 profile。
+
+**方式三：市场安装**（待收录）。已向社区目录（awesome-dsh-plugin）提交条目，合并后可在市场里搜到；npm 包 `dsh-impeccable-skill` 尚未发布，发布后也能直接填包名。
 
 安装后按宿主提示重启（Desktop 退出重开；Web 重启服务并刷新页面），之后新会话的技能目录里会出现 `impeccable`。
 
